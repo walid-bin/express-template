@@ -8,9 +8,9 @@ const router = Router();
 
 
 /**
- * GET /v1/subscriptions/:id
- * @description Get single subscription.
- * @response {Array} 200 - The subscription data.
+ * GET /v1/test
+ * @description test api.
+ * @response {string} 200 - succesful message
  */
 router.get('/test', async (req, res)=>{
     res.status(200).send('Successful.')
